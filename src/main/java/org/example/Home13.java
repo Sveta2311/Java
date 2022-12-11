@@ -13,6 +13,7 @@ public class Home13 {
     static Logger logger = Logger.getLogger("Home13");
 
     public static void main(String[] args) {
+        GetLine();
         PrintIntoFile();
     }
 
