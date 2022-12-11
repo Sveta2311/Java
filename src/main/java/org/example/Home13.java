@@ -13,7 +13,6 @@ public class Home13 {
     static Logger logger = Logger.getLogger("Home13");
 
     public static void main(String[] args) {
-        GetLine();
         PrintIntoFile();
     }
 
@@ -29,12 +28,12 @@ public class Home13 {
         return sb.toString();
     }
     private static void PrintIntoFile() {
-            try (PrintWriter pw = new PrintWriter("src/main/resources/files/test.txt")) {
-                String line = GetLine();
-                pw.print(line);
-            }
-            catch (FileNotFoundException e){
-                logger.warning("Файл не найден: " + e.getMessage());
-            }
+        try (PrintWriter pw = new PrintWriter("src/main/resources/files/test.txt")) {
+            String line = GetLine();
+            pw.print(line);
+        }
+        catch (FileNotFoundException e){
+            logger.warning("Файл не найден: " + e.getMessage());
         }
     }
+}
