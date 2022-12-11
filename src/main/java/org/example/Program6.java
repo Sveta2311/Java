@@ -100,7 +100,7 @@ public class Program6 {
                 sb.append(name).append(System.lineSeparator());
             }
 
-            try (PrintWriter pw = new PrintWriter("src/main/resources/dir_files.txt")) {
+            try (PrintWriter pw = new PrintWriter("src/main/resources/files/dir_files.txt")) {
                 pw.print(sb.toString());
             } catch (FileNotFoundException e) {
                 logger.severe("File not fount: " + e.getMessage());
