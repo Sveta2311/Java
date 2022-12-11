@@ -8,7 +8,9 @@ import java.util.Scanner;
 public class Home12 {
     public static void main(String[] args) {
         System.out.print(palindrome());
-    }public static boolean palindrome() {
+
+    }
+    public static boolean palindrome() {
         System.out.print("Введите строку: ");
         Scanner scanner = new Scanner(System.in);
         String str1 = scanner.nextLine();
