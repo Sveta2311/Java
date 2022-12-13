@@ -1,0 +1,34 @@
+book.zip
+DiscordSetup.exe
+dotnet-sdk-6.0.302-win-x64 (1).exe
+dotnet-sdk-6.0.302-win-x64.exe
+Examples
+Examples1
+Examples2
+Figure_1.png
+gitignore.png
+Itog_1
+Java
+main.py
+Python
+python-3.10.7-amd64.exe
+task3.html
+Telega_bot_origin (1).rar
+Telega_bot_origin.rar
+Vebtex
+БД
+Блок-схемы и массивы
+было.png
+Введение в информатику
+Веб-технологии
+Веб-технологии примеры
+Знакомство с контролем версий
+Итоговый проект Python.png
+Ишкинина С.Г (снимки) (04.07).zip
+лекции контроль версий.zip
+О дипломном проекте
+Подписанное заявление.jpg
+С#
+Семинары и ДЗ контроль версий
+Файл для Семинара - 2 - без подсказок.xlsx
+
