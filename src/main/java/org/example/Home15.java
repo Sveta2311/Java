@@ -11,10 +11,9 @@ import java.util.Scanner;
 
 public class Home15 {
     public static void main(String[] args) {
-        oddNumbers();
+        userArray();
     }
-
-    private static void oddNumbers() {
+    private static void userArray() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите длину списка целых чисел: ");
         int a = scanner.nextInt();
