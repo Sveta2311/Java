@@ -4,6 +4,7 @@
 
 package org.example;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -29,10 +30,10 @@ public class Home15 {
         System.out.println("Максимальное значение из списка: ");
         System.out.println(Collections.max(list));
 
-        int sum = list.stream().mapToInt(Integer::intValue).sum();
-        System.out.println(Math.abs(sum));
+        double sum = list.stream().mapToInt(Integer::intValue).sum();
         double result = (Math.abs(sum))/a;
+        DecimalFormat f = new DecimalFormat("##0.00");
         System.out.println("Среднее арифметическое из этого списка: ");
-        System.out.println(result);
+        System.out.println(f.format(result));
         }
     }
