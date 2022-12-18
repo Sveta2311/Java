@@ -20,7 +20,7 @@ public class Home18 {
     private static boolean add() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Введите элемент очереди (каждый новый элемент массива вводится после Enter), для выхода введите слово stop: ");
+            System.out.println("Введите элемент очереди (каждый новый элемент очереди вводится после Enter), для выхода введите слово stop: ");
             String text = scanner.nextLine();
             if (text.equals("stop")) {
                 return false;
